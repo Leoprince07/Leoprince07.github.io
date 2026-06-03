@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti — Leonardo Gasparrini</title>
+  <meta name="description" content="Contatti di Leonardo Gasparrini: email, telefono, GitHub e Instagram. Studente di Informatica all'IIS Marconi Pieralisi di Jesi.">
+  <meta property="og:title" content="Contatti — Leonardo Gasparrini">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* Stile aggiuntivo per la pagina contatti */
+    .contacts-hero-img {
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+    }
+
+    .contact-item-info { display: flex; flex-direction: column; gap: 0.1rem; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGAZIONE -->
+  <header class="site-nav" role="banner">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Torna alla home">L<span>G</span></a>
+      <nav aria-label="Navigazione principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="materie.html">Materie</a></li>
+          <li><a href="educazione-civica.html">Ed. Civica</a></li>
+          <li><a href="pcto.html">FSL</a></li>
+          <li><a href="contatti.html" class="active">Contatti</a></li>
+        </ul>
+      </nav>
+      <button class="nav-hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav-mobile" id="mobile-menu" aria-label="Navigazione mobile">
+    <a href="index.html">Home</a>
+    <a href="materie.html">Materie</a>
+    <a href="educazione-civica.html">Ed. Civica</a>
+    <a href="pcto.html">FSL</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+
+  <main>
+
+    <!-- Hero pagina -->
+    <div class="page-hero">
+      <div class="container">
+        <span class="section-label">Dove trovarmi</span>
+        <h1>Contatti</h1>
+        <p>Puoi scrivermi via email o trovarmi sui social: sono sempre felice di connettermi.</p>
+      </div>
+    </div>
+
+    <section class="contacts-section" aria-labelledby="contacts-heading">
+      <div class="container">
+
+        <div class="contacts-grid">
+
+          <!-- Lista contatti -->
+          <div>
+            <span class="section-label">Come contattarmi</span>
+            <h2 id="contacts-heading" style="margin-bottom: var(--space-md);">Dati di contatto</h2>
+
+            <div class="contact-list">
+
+              <div class="contact-item fade-in">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Email</span>
+                  <a href="mailto:leonardogasparrini007@gmail.com" class="contact-item-value">
+                    leonardogasparrini007@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item fade-in">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Telefono</span>
+                  <a href="tel:+393343899786" class="contact-item-value">+39 334 3899786</a>
+                </div>
+              </div>
+
+              <div class="contact-item fade-in">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Indirizzo</span>
+                  <span class="contact-item-value">Via Castagna, 22 — 60030 Belvedere Ostrense (AN)</span>
+                </div>
+              </div>
+
+              <a
+                href="https://github.com/Leoprince07"
+                target="_blank"
+                rel="noopener"
+                class="contact-item fade-in"
+                aria-label="Profilo GitHub di Leonardo Gasparrini (si apre in nuova scheda)"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">GitHub</span>
+                  <span class="contact-item-value">github.com/Leoprince07</span>
+                </div>
+              </a>
+
+              <a
+                href="https://instagram.com/leonardogasparrini_"
+                target="_blank"
+                rel="noopener"
+                class="contact-item fade-in"
+                aria-label="Profilo Instagram di Leonardo Gasparrini (si apre in nuova scheda)"
+              >
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Instagram</span>
+                  <span class="contact-item-value">@leonardogasparrini_</span>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Immagine decorativa -->
+          <div class="fade-in">
+            <img
+              src="immagini/contatti-bg.jpg"
+              alt="Connessione e comunicazione"
+              class="contacts-hero-img"
+              loading="lazy"
+              width="540" height="340"
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">L<span>G</span></a>
+          <p>Studente di Informatica — IIS "Marconi Pieralisi", Jesi<br>
+          Classe 5ª CM — Anno scolastico 2025/2026</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="materie.html">Materie</a></li>
+            <li><a href="educazione-civica.html">Ed. Civica</a></li>
+            <li><a href="pcto.html">FSL</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contatti</h4>
+          <ul>
+            <li><a href="mailto:leonardogasparrini007@gmail.com">leonardogasparrini007@gmail.com</a></li>
+          </ul>
+          <div class="footer-social" style="margin-top:1rem;">
+            <a href="https://github.com/Leoprince07" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com/leonardogasparrini_" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Leonardo Gasparrini</span>
+        <span>IIS "Marconi Pieralisi" — Progetto Esame di Stato</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo Gasparrini — Studente di Informatica</title>
+  <meta name="description" content="Sito personale di Leonardo Gasparrini, studente del quinto anno IIS Marconi Pieralisi di Jesi, indirizzo Informatica e Telecomunicazioni.">
+  <meta property="og:title" content="Leonardo Gasparrini — Studente di Informatica">
+  <meta property="og:description" content="Cinque anni di scuola, le cose che mi appassionano, qualche progetto: ecco quello che ho da raccontare.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVIGAZIONE -->
+  <header class="site-nav" role="banner">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Torna alla home">L<span>G</span></a>
+      <nav aria-label="Navigazione principale">
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="materie.html">Materie</a></li>
+          <li><a href="educazione-civica.html">Ed. Civica</a></li>
+          <li><a href="pcto.html">FSL</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </nav>
+      <button class="nav-hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MENU MOBILE -->
+  <nav class="nav-mobile" id="mobile-menu" aria-label="Navigazione mobile">
+    <a href="#home">Home</a>
+    <a href="materie.html">Materie</a>
+    <a href="educazione-civica.html">Ed. Civica</a>
+    <a href="pcto.html">FSL</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════
+         SEZIONE HERO
+    ══════════════════════════════════════════ -->
+    <section id="home" class="hero-section" aria-labelledby="hero-name">
+      <div class="container">
+        <div class="hero-grid">
+
+          <div class="hero-text">
+            <span class="section-label">Benvenuto</span>
+            <h1 class="hero-name" id="hero-name">Leonardo<br>Gasparrini</h1>
+            <p class="hero-subtitle">Studente di Informatica — IIS "Marconi Pieralisi", Jesi</p>
+            <p class="hero-welcome">Cinque anni di scuola, le cose che mi appassionano, qualche progetto: ecco quello che ho da raccontare.</p>
+            <div class="hero-cta">
+              <a href="#chi-sono" class="btn btn-primary">
+                <i class="fa-solid fa-arrow-down" aria-hidden="true"></i> Scopri di più
+              </a>
+              <a href="materie.html" class="btn btn-outline">
+                <i class="fa-solid fa-book-open" aria-hidden="true"></i> Le mie materie
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-photo-wrap">
+            <img
+              src="immagini/profilo.jpg"
+              alt="Foto profilo di Leonardo Gasparrini"
+              class="hero-photo"
+              width="340" height="340"
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SEZIONE CHI SONO
+    ══════════════════════════════════════════ -->
+    <section id="chi-sono" class="about-section" aria-labelledby="about-heading">
+      <div class="container">
+
+        <span class="section-label">Chi sono</span>
+        <h2 class="section-heading" id="about-heading">Una persona curiosa,<br>un futuro da costruire</h2>
+
+        <p class="about-intro fade-in">
+          Ho 18 anni e vivo a Belvedere Ostrense, un piccolo comune della provincia di Ancona
+          dove si conoscono tutti quanti. Sono una persona curiosa e competente: amo capire come
+          funzionano i calcolatori ed è questa curiosità che, dalle scuole medie in poi, mi ha portato
+          verso l'informatica e che oggi mi fa immaginare un futuro nel quale costruire tecnologie utili
+          alle persone. Famiglia, amici di sempre e i compagni di classe che ho conosciuto in questi
+          cinque anni sono la parte che, di tutto, conta di più.
+        </p>
+
+        <div class="about-blocks">
+
+          <!-- Blocco 1: Percorso di studi -->
+          <div class="about-block fade-in">
+            <div class="about-block-text">
+              <h3>Il mio percorso di studi</h3>
+              <p>
+                Ho frequentato la scuola primaria e media nel mio paese, poi ho scelto l'IIS "Marconi Pieralisi"
+                di Jesi perché sentivo già da tempo l'interesse per il mondo digitale e volevo una scuola che mi
+                desse competenze pratiche oltre alla preparazione teorica. Nel triennio ho approfondito
+                programmazione, basi di dati, reti e progettazione software, scoprendo aree che mi affascinano
+                in modo particolare come le reti informatiche e la programmazione software. Mi piace affrontare
+                le sfide scolastiche con impegno e, dopo il diploma, vorrei iscrivermi al corso di laurea in
+                Ingegneria Informatica all'Università Politecnica delle Marche.
+              </p>
+            </div>
+            <img
+              src="immagini/scuola-marconi.jpg"
+              alt="L'istituto IIS Marconi Pieralisi di Jesi"
+              class="about-block-img"
+              loading="lazy"
+              width="540" height="280"
+            >
+          </div>
+
+          <!-- Blocco 2: Sguardo al futuro -->
+          <div class="about-block reverse fade-in">
+            <div class="about-block-text">
+              <h3>Uno sguardo al futuro</h3>
+              <p>
+                Guardando avanti so che ci sono ancora tante cose da imparare. Sono motivato ad affrontare
+                le sfide universitarie e professionali che verranno e mi piacerebbe lavorare, un giorno, in
+                un'impresa che lavori con la progettazione di rete di sistemi informatici, possibilmente nel
+                mio territorio. Penso che le Marche, e in particolare la zona di Jesi, offrano oggi realtà
+                industriali molto stimolanti per chi vuole unire tecnologia e innovazione.
+              </p>
+            </div>
+            <img
+              src="immagini/univpm-ancona.jpg"
+              alt="Università Politecnica delle Marche, Ancona"
+              class="about-block-img"
+              loading="lazy"
+              width="540" height="280"
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SEZIONE PASSIONI
+    ══════════════════════════════════════════ -->
+    <section id="passioni" class="passions-section" aria-labelledby="passions-heading">
+      <div class="container">
+
+        <span class="section-label">Passioni</span>
+        <h2 class="section-heading" id="passions-heading">Quello che mi racconta<br>fuori dall'aula</h2>
+
+        <p class="passions-bridge fade-in">
+          La scuola occupa una parte importante delle mie giornate, ma non è tutto. Ci sono alcune
+          cose che, fuori dall'aula, mi raccontano meglio di qualsiasi voto.
+        </p>
+
+        <!-- Passione: Calcio -->
+        <div class="passion-block fade-in">
+          <img
+            src="immagini/passione-calcio.jpg"
+            alt="Campo da calcio - passione per lo sport"
+            class="passion-img"
+            loading="lazy"
+            width="540" height="300"
+          >
+          <div class="passion-content">
+            <div class="passion-icon" aria-hidden="true">
+              <i class="fa-solid fa-futbol"></i>
+            </div>
+            <h3>Sport — Calcio</h3>
+            <p>
+              Ho praticato calcio dall'età di 5 anni fino a pochi anni fa, giocando per molto tempo in
+              una squadra del paese. Questa esperienza mi ha insegnato il valore del lavoro di squadra,
+              della disciplina e della costanza, oltre alla capacità di gestire sia le vittorie sia le
+              difficoltà con rispetto verso compagni e avversari. Oggi continuo a coltivare la passione
+              per lo sport andando regolarmente in palestra, attività che mi aiuta a mantenere
+              determinazione, impegno e attenzione agli obiettivi. Trovo molte analogie tra lo sport e il
+              lavoro in un team di sviluppo software: ognuno ha un ruolo specifico, ma i risultati
+              migliori si ottengono solo attraverso collaborazione, fiducia e coesione del gruppo.
+            </p>
+          </div>
+        </div>
+
+        <!-- Passione: Tecnologia -->
+        <div class="passion-block reverse fade-in">
+          <img
+            src="immagini/passione-tecnologia.jpg"
+            alt="Computer e tecnologia - passione informatica"
+            class="passion-img"
+            loading="lazy"
+            width="540" height="300"
+          >
+          <div class="passion-content">
+            <div class="passion-icon" aria-hidden="true">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3>Tecnologia</h3>
+            <p>
+              È la passione che ha guidato la mia scelta della scuola e quella che continua ancora oggi
+              a portarmi via più ore del previsto. Mi piace assemblare PC, seguire canali divulgativi su
+              YouTube dedicati alla sicurezza informatica e allo sviluppo software, oltre a tenermi
+              aggiornato sulle nuove tecnologie. Nel tempo libero mi piace anche giocare ai videogiochi,
+              un interesse che mi ha avvicinato ancora di più al mondo dell'informatica e della tecnologia.
+            </p>
+          </div>
+        </div>
+
+        <!-- Passione: Amici -->
+        <div class="passion-block fade-in">
+          <img
+            src="immagini/passione-musica.jpg"
+            alt="Momenti con gli amici"
+            class="passion-img"
+            loading="lazy"
+            width="540" height="300"
+          >
+          <div class="passion-content">
+            <div class="passion-icon" aria-hidden="true">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+            <h3>Amici</h3>
+            <p>
+              Mi piace passare il tempo con i miei amici d'infanzia, con cui condivido molti dei ricordi
+              e delle esperienze più importanti della mia crescita. Anche le amicizie nate a scuola hanno
+              avuto un ruolo fondamentale nel mio percorso, sia dal punto di vista personale sia umano.
+              Confrontarmi ogni giorno con persone diverse mi ha insegnato il valore dell'ascolto, della
+              collaborazione e della condivisione, aspetti che considero importanti anche nel lavoro di
+              squadra e nelle relazioni quotidiane.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">L<span>G</span></a>
+          <p>Studente di Informatica — IIS "Marconi Pieralisi", Jesi<br>
+          Classe 5ª CM — Anno scolastico 2025/2026</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="materie.html">Materie</a></li>
+            <li><a href="educazione-civica.html">Ed. Civica</a></li>
+            <li><a href="pcto.html">FSL</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contatti</h4>
+          <ul>
+            <li><a href="mailto:leonardogasparrini007@gmail.com">leonardogasparrini007@gmail.com</a></li>
+          </ul>
+          <div class="footer-social" style="margin-top:1rem;">
+            <a href="https://github.com/Leoprince07" target="_blank" rel="noopener" aria-label="GitHub di Leonardo Gasparrini">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com/leonardogasparrini_" target="_blank" rel="noopener" aria-label="Instagram di Leonardo Gasparrini">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Leonardo Gasparrini</span>
+        <span>IIS "Marconi Pieralisi" — Progetto Esame di Stato</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
